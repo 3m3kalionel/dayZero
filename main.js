@@ -2,14 +2,7 @@
 
 module.exports = {
 
- /* list prime numbers from 0 to number */
- // getPrime: (number) => {
- //   let primes = 2
- //   // code here
- //   return primes;
- // }
-
-	getPrimes: function(num) {
+getPrimes: function(num) {
 	    //takes in one number and returns an array of prime numbers 4rm 0-num
 	    var res =[];
 	    function isPrime(n) { 
