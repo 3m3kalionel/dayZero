@@ -55,3 +55,11 @@ describe("Should contain or not contain the given values:", function() {
   });
 
 });
+
+describe("Should equal the given values:", function() {
+
+  it("should return 2 as the first element of getPrimes(73)", function() {
+    expect(getPrimes(73)[0]).to.equal(2);
+  });  
+
+});
