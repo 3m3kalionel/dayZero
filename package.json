@@ -1,0 +1,26 @@
+{
+  "name": "getprimes",
+  "version": "1.0.0",
+  "description": "takes an integer input and returns prime numbers from 2 up to and including the input",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3m3kalionel/dayZero.git"
+  },
+  "author": "Chukwuemeka Okoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3m3kalionel/dayZero/issues"
+  },
+  "homepage": "https://github.com/3m3kalionel/dayZero#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "jasmine": "^2.6.0"
+  }
+}
