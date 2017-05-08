@@ -39,3 +39,19 @@ describe("should deep equal the function call for the following values", functio
   
 
 });
+
+describe("Should contain or not contain the given values:", function() {
+
+  it("should not include 49 for an input of 50", function() {
+    expect(getPrimes(50)).not.to.contain(49);
+  });
+
+  it('should contain 31, 73 and 101 for an input of 101', function () {
+        expect(getPrimes(101)).to.contain(31, 73, 101);
+  });
+
+  it('should contain 2, 7, 11 for an input of 40', function () {
+        expect(getPrimes(11)).to.contain(2, 7, 11);
+  });
+
+});
